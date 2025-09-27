@@ -1,0 +1,14 @@
+variable "resource_group_name" {}
+variable "location" {}
+variable "nic_id" {}
+variable "vm_name" {}
+variable "vm_size" {}
+variable "admin_username" {}
+variable "admin_password" {}
+variable "image_publisher" {}
+variable "image_offer" {}
+variable "image_sku" {}
+variable "image_version" {}
+variable "os_disk_type" {}
+variable "disks_count" {}
+variable "disks_size" {}
