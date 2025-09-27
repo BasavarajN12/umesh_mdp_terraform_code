@@ -53,7 +53,3 @@ resource "azurerm_network_interface_security_group_association" "nsg_assoc" {
 }
 
 
-
-output "vnet_name" {
-  value = azurerm_virtual_network.vnet.name
-}
