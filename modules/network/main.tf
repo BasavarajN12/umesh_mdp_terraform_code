@@ -52,17 +52,7 @@ resource "azurerm_network_interface_security_group_association" "nsg_assoc" {
   network_security_group_id = azurerm_network_security_group.nsg.id
 }
 
-output "nic_id" {
-  value = azurerm_network_interface.nic.id
-}
 
-output "resource_group_name" {
-  value = azurerm_resource_group.private.name
-}
-
-output "subnet_id" {
-  value = azurerm_subnet.subnet.id
-}
 
 output "vnet_name" {
   value = azurerm_virtual_network.vnet.name
