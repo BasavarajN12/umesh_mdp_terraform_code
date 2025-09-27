@@ -16,7 +16,7 @@ module "network" {
 }
 
 
-module "compute" {
+module "vm_compute" {
   source              = "./modules/vm_compute"
   resource_group_name = module.network.resource_group_name
   location            = var.location
@@ -35,7 +35,7 @@ module "compute" {
 }
 
 
-module "shutdown" {
+module "vm_shutdown" {
   source   = "./modules/vm_shutdown"
   vm_id    = module.compute.vm_id
   location = var.location
