@@ -1,4 +1,4 @@
-# Private VNet details (your own VNet)
+
 variable "vnet_name" {
   description = "Name of the private VNet to peer from"
   type        = string
@@ -14,7 +14,7 @@ variable "resource_group_name" {
   type        = string
 }
 
-# Jenkins VNet details
+
 variable "jenkins_vnet_name" {
   description = "Name of the Jenkins VNet"
   type        = string
@@ -25,7 +25,7 @@ variable "jenkins_rg_name" {
   type        = string
 }
 
-# Development VNet details
+
 variable "development_vnet_name" {
   description = "Name of the Development VNet"
   type        = string
@@ -36,7 +36,7 @@ variable "development_rg_name" {
   type        = string
 }
 
-# Peering names
+
 variable "peer_name_between_dev_vnet_to_jenkins_vnet" {
   description = "Peering name: Dev VNet to Jenkins VNet"
   type        = string
