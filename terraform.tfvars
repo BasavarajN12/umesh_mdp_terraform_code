@@ -1,4 +1,4 @@
-sub_id                          = "your-sub-id"
+sub_id                          = "21b61287-b2bd-4767-b872-b4d447d90553"
 location                        = "Central India"
 resource_group_name             = "mdp-dev"
 vnet_name                       = "mdp-vnet"
